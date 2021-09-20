@@ -5,9 +5,9 @@ export enum CardKind {
 }
 
 export interface Card {
-  ID: number
-  Kind: CardKind
-  Prompt: string
-  Answer: string
+  id: number
+  kind: CardKind
+  prompt: string
+  answer: string
 }
 
